@@ -26,7 +26,6 @@ public class NewTest
 		Thread.sleep(5000);
 		String title = driver.getTitle();				 
 		Assert.assertTrue(title.contains("Google"));
-		//Added comment
 	}
 	
 	@After
